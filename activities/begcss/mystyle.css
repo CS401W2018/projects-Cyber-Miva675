@@ -1,0 +1,13 @@
+main p{
+    color: rgb(59, 21, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+h1 {
+    color: rgba(255, 0, 0, 0.99);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+h2 {
+    color: rgb(240, 160, 11);
+}
