@@ -1,0 +1,165 @@
+nav a
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(5, 5, 107);
+    }
+
+.current
+    {
+        color: blue;
+    }
+
+main p 
+    {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+p 
+    {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+h1 
+    {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+h2 
+    {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+h3 
+    {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+h4 
+    {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+h5 
+    {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+h6 
+    {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.hp 
+    {
+        background-color: black;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+
+        font-size: 3rem;
+
+        -webkit-back-ground-clip: text;
+        -webkit-text-stroke: 4px transparent;
+    }
+
+.pg1 
+    {
+        background-color: black;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+
+        font-size: 3rem;
+
+        -webkit-back-ground-clip: text;
+        -webkit-text-stroke: 4px transparent;
+    }
+
+.pg2 
+    {
+        background-color: black;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+
+        font-size: 3rem;
+
+        -webkit-back-ground-clip: text;
+        -webkit-text-stroke: 4px transparent;
+    }
+
+.pg3 
+    {
+        background-color: black;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+
+        font-size: 3rem;
+
+        -webkit-back-ground-clip: text;
+        -webkit-text-stroke: 4px transparent;
+    }
+
+.pg4 
+    {
+        background-color: black;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+
+        font-size: 3rem;
+
+        -webkit-back-ground-clip: text;
+        -webkit-text-stroke: 4px transparent;
+    }
+
+.pg5  
+    {
+        background-color: black;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+
+        font-size: 3rem;
+
+        -webkit-back-ground-clip: text;
+        -webkit-text-stroke: 4px transparent;
+    }
+
+.welcome 
+    {
+        color: gold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 1000;
+    }
+
+.background 
+    {
+        width: 100%;
+        height: 100vh;
+        background-image:url(photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position: right;
+    }
+
+body 
+    {
+        color: white;
+        background-color: black;
+    }
+
+footer 
+    {
+        color: blue;
+    }
