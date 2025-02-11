@@ -1,0 +1,74 @@
+body
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        background: url('image.jpg') blue;
+        
+        background-image: url('image.jpg');
+        width: 100%;
+        height: 100vh;
+    }
+
+header 
+    {
+        color: white;
+        background-image: url('images.jpeg');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 9rem;
+    }
+
+nav
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    }
+
+
+.mylist
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+    }
+
+.image
+    {
+        width: 100%;
+        height: 100vh; 
+    }
+
+.hpage
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        color: azure;
+        width: 100%;
+        height: vh;
+        display: flex;
+
+        font-size: 2rem;
+
+        -webkit-back-ground-clip: text;
+        -webkit-text-stroke: 4px transparent;
+    }
+
+h1
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        width: 100%;
+    }
+
+h2
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    }
+
+main
+    {
+        color: white;
+    }
+
+footer
+    {
+        color: white;
+    }
