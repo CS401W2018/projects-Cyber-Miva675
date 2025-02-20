@@ -1,0 +1,19 @@
+body
+{
+    background-color: black;
+    border: thick solid white;
+    padding: 20px 50px 20px 50px;
+
+    color: white;
+}
+
+.img
+{
+    size: 50rem;
+    height: 100vh;
+}
+
+main
+{
+    color: white;
+}

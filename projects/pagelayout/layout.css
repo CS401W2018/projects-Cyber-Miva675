@@ -1,77 +1,170 @@
 body
-    {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: whitesmoke;
-    }
+{
+    background-color: black;
+    border: thick solid black;
+
+    /*border-bottom: 0cap;
+    border-top: 0cap;*/
+    
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+
+    color: gold;
+}
 
 #wrapper
-    {
-        color:black;
-    }
+{
+    background-color: gold;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
 
-header
-    {
-        font-family:'Times New Roman', Times, serif;
-        font-size: large;
-        color: gold;
-        font-weight: 400;
-        font-style: inherit;
-
-        /*line-height: 0cap;*/
-        text-align: center;
-        text-transform: capitalize;
-        text-shadow: 0cqmax;
-
-        /*background-color: grey;*/
-        background-image: url('sunset.jpg');
-        
-        width: 100%;
-        height: 10vh;
-        
-        background-repeat: repeat;
-        background-size: top;
-
-        margin-left: auto;
-        margin-right: auto;
-
-        padding: 50px 50px 50px 50px;
-    }
+/*header
+{
+    background-color: gold;
+}*/
 
 header h1
-    {
-        border: 3px solid gold;
-    }
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    box-shadow: 20px 20px 20px 20px rgba(rgb(244, 5, 5), rgb(238, 251, 2), blue, alpha);
+
+    background-image: url(sunset.jpg);
+    border-color: gold;
+    border-style: solid;
+    
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    height: 80px;
+    border-radius: 30px;
+}
+
+h2
+{
+    color: black;
+    background-color: blue;
+    padding: 10px;
+
+    margin-right: 650px;
+    margin-left: 20px;
+
+    text-align: center;
+}
 
 nav
-    {
-        background-color: aqua;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-    }
+{
+    font: thick bold;
+    text-align: center;
 
-main
-    {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+    height: 20px;
+}
 
-figure
-    {
-        border: thick solid gold;
-        width: 624px;
-    }
+#link1
+{
+    background-color: black;
+    padding: 5px 50px 5px 50px;
+    text-align: left;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
-figure caption
-    {
-        color: black; 
-    }
+#link2
+{
+    background-color: black;
+    padding: 5px 50px 5px 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#link3
+{
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px 50px 5px 50px;
+    text-align: right;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 .img
-    {
-        size: 50rem;
-        height: 100vh;
-    }
+{
+
+    size: 50rem;
+    height: 100vh;
+   
+
+    /*border: thick solid white;*/
+    margin-top: 0;
+    margin-left: 0;
+
+    float: left;
+    /*width: 50px;*/
+}
+
+main
+{
+    color: black;
+    margin-bottom: 600px;
+    /*padding-bottom: 560px;*/
+}
+
+.fig
+{
+    border: thick solid black;
+    height: 105vh;
+    float: left;
+
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+figure
+{
+    text-align: left;
+}
+    
+
+figure caption
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    margin-left: 10px;
+}
+
+/*.cr
+{
+    float: left;
+}*/
 
 footer
-    {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 50px;
+    padding-right: 30px;
+
+    background-color: gold;
+    background-image: url(flag.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
