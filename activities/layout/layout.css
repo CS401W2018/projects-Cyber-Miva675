@@ -1,0 +1,37 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aqua;
+}
+
+.clear
+{
+    clear: both;
+}
+
+nav a
+{
+    display: block;
+    padding: 5px 10px;
+    background-color: aqua;
+    text-decoration: none;
+    margin-right: 50px;
+    float: left;
+}
+
+nav a:hover
+{
+    color: aqua;
+    background-color: white;
+    text-decoration: underline;
+}
+
+#wrapper
+{
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    border: thin solid  grey;
+    border-radius: 30px;
+}
+

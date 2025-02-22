@@ -3,75 +3,111 @@ body
     background-color: black;
     border: thick solid black;
 
-    /*border-bottom: 0cap;
-    border-top: 0cap;*/
-    
-
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
     padding-top: 0;
 
     margin-top: 10px;
-    margin-right: 100px;
+    
     margin-bottom: 100px;
-    margin-left: 100px;
 
-    color: gold;
+    color: white;
 }
 
 #wrapper
 {
-    background-color: gold;
-    margin-right: 0;
+    padding: 0;
+    width: 900px;
+
+    background-color: rgb(222, 217, 217);
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0;
+    margin-left: auto;
 }
-
-/*header
-{
-    background-color: gold;
-}*/
 
 header h1
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
     text-align: center;
     
-    box-shadow: 20px 20px 20px 20px rgba(rgb(244, 5, 5), rgb(238, 251, 2), blue, alpha);
+    box-shadow: 20px 20px 20px rgb(98, 96, 96);
 
     background-image: url(sunset.jpg);
-    border-color: gold;
+    border-style: double;
+    border-color: blue;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    border-color: none;
     border-style: solid;
     
-    margin-right: 300px;
-    margin-left: 300px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
 
     height: 80px;
     border-radius: 30px;
 }
-
+ 
 h2
 {
     color: black;
-    background-color: blue;
+    background-color: white;
     padding: 10px;
 
     margin-right: 650px;
     margin-left: 20px;
 
     text-align: center;
+    font-weight: 800;
+}
+
+.pa
+{
+    font-weight: bolder;
+    font-style: oblique;
+    text-transform: uppercase;
+    width: 600px;
+}
+
+.clear
+{
+    clear: both;
 }
 
 nav
 {
     font: thick bold;
     text-align: center;
-
+    font-size: xx-large;
     height: 20px;
+}
+
+nav a
+{
+    display: block;
+    padding: 5px 10px;
+    background-color: aqua;
+    text-decoration: none;
+    
+    float: left;
+   
+    
+    /*position: relative;
+    right: 300px;*/
+}
+
+nav a:hover
+{
+    color: aqua;
+    background-color: white;
+    text-decoration: underline;
 }
 
 #link1
@@ -80,6 +116,7 @@ nav
     padding: 5px 50px 5px 50px;
     text-align: left;
     border-radius: 30px;
+
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -90,6 +127,7 @@ nav
     padding: 5px 50px 5px 50px;
     text-align: center;
     border-radius: 30px;
+
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -107,24 +145,18 @@ nav
 
 .img
 {
-
     size: 50rem;
     height: 100vh;
-   
-
-    /*border: thick solid white;*/
+    border: thick solid black;
     margin-top: 0;
     margin-left: 0;
-
     float: left;
-    /*width: 50px;*/
 }
 
 main
 {
     color: black;
     margin-bottom: 600px;
-    /*padding-bottom: 560px;*/
 }
 
 .fig
@@ -132,6 +164,7 @@ main
     border: thick solid black;
     height: 105vh;
     float: left;
+    box-shadow: 20px 20px 20px grey;
 
     margin-top: 0;
     margin-right: 10px;
@@ -151,20 +184,17 @@ figure caption
     margin-left: 10px;
 }
 
-/*.cr
-{
-    float: left;
-}*/
-
 footer
 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding-bottom: 50px;
+    color: black;
+    padding-bottom: 100px;
     padding-right: 30px;
 
-    background-color: gold;
+    background-color: rgb(222, 217, 217);
     background-image: url(flag.png);
+    position: relative;
+    bottom: 10px;
     background-position: bottom right;
     background-repeat: no-repeat;
 }
