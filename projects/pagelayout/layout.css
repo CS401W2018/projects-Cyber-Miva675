@@ -96,11 +96,7 @@ nav a
     background-color: aqua;
     text-decoration: none;
     
-    float: left;
-   
-    
-    /*position: relative;
-    right: 300px;*/
+    float: left;  
 }
 
 nav a:hover

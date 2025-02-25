@@ -1,0 +1,29 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent
+{
+    background-color: aqua;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    gap: 10px;
+    column-gap: 30px;
+}
+
+.child
+{
+    background-color: blueviolet;
+}
+
+
+
+
+
+/*MY Notes:
+---gap works with css flex and css grid.
+---grid-template-columns=px or % or fr.
+---gap=px.
+*/
