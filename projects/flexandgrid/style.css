@@ -1,0 +1,64 @@
+body 
+{ font-family: Arial, Helvetica, sans-serif; }
+
+#wrapper
+{ 
+display: grid;
+grid-template-columns: 1fr 4fr 1fr;
+grid-template-areas: 
+    "header header header"
+    "navigation navigation navigation"
+    "aside1 main aside2"
+    "footer footer footer"
+}
+
+header 
+{ grid-area: header; }
+
+nav 
+{ grid-area: header; }
+
+/*Alternative Nav Cover
+.topnav 
+{ 
+grid-template-columns: 3fr 3fr 3fr;
+column-gap: 10px;
+row-gap: 10px;
+background-color: yellow;}*/
+
+.aside1 
+{ grid-area: aside1; }
+
+.aside2 
+{ grid-area: aside2; }
+
+main 
+{ grid-area: main; }
+
+footer 
+{ grid-area: footer; }
+
+/*.jnrnav1 { grid-area: main2; }
+.jnrnav2 { grid-area: header2; }
+.jnrnav3 { grid-area: header1; }
+.jnrnav4 { grid-area: main3; }
+.jnrnav5 { grid-area: main1; }
+.jnrnav6 { grid-area: header3; }*/
+
+.gennav 
+{
+display: grid;
+grid-template-columns: 1fr 4fr 1fr;
+
+background-color: blue;
+padding: 10px;
+
+column-gap: 10px;
+row-gap: 10px; }
+
+.jnrnav 
+{ background-color: gold; }
+
+
+
+

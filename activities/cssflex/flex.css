@@ -1,0 +1,42 @@
+body
+    {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+nav
+    {
+        display: flex;
+        background-color: blue;
+        justify-content: space-evenly;
+    }
+
+nav a
+    {
+        display: block;
+        background-color: yellow;
+        color: blue;
+        padding: 5px 10px;
+    }
+
+.featured
+    {
+        order: -1;
+    }
+
+.parent
+    {
+        background-color: yellow;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        /*You can combine them
+        flex-flow: row wrap;*/
+    }
+
+.child
+    {
+        background-color: rgb(248, 8, 248);
+        width: 100px;
+        margin: 10px;
+    }
