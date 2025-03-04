@@ -7,7 +7,8 @@ header
     {
         background-color: rgb(5, 13, 250);
         height: 80px;
-        padding-top: 15px;
+        padding-top: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
 header h1
@@ -16,6 +17,33 @@ header h1
         justify-content: center;
         color: black;
 
+    }
+
+nav
+    {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        text-decoration: none;
+    }
+
+nav a
+    {
+        display: block;
+        padding: 10px;
+        padding-right: 60px;
+        padding-left: 60px;
+
+        background-color: gold;
+        color: blue;
+        text-decoration: none;
+    }
+
+nav a:hover
+    {
+        text-decoration: underline;
+        color: rgb(62, 62, 139);
+        background-color: white;
     }
 
 .parent
@@ -28,18 +56,23 @@ header h1
 main
     {
         display: block;
+        
     }
 
 main h1
     {
         display: flex;
         justify-content: center;
+        background-color: blue;
+        margin-top: 0;
+        padding-bottom: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
 .card
     {
         border: thin solid blue;
-        box-shadow: 3px 3px 3px rgba(40, 40, 40, 0.5);
+        box-shadow: 8px 8px 8px rgba(40, 40, 40, 0.5);
         width: 250px;
     }
 
