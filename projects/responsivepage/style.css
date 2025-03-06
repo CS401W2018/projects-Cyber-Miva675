@@ -1,0 +1,70 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header 
+{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blue;
+}
+
+header h1 
+{ 
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+nav 
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+nav a 
+{ 
+    display: block;
+    background-color: yellow;
+
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+nav a:hover 
+{ 
+    display: block;
+    text-decoration: underline;
+    background-color: rgb(13, 241, 241);
+}
+
+.toprows 
+{ 
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+figure
+{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+aside 
+{ font: bolder;}
+
+main 
+{ font-family: Georgia, 'Times New Roman', Times, serif;}
+
+footer
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
