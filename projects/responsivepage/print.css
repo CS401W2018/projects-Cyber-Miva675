@@ -22,30 +22,6 @@ header h1
     color: rgb(224, 220, 14);
 }
 
-nav 
-{ 
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 0;
-}
-
-nav a 
-{ 
-    display: block;
-    background-color: yellow;
-
-    padding: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-nav a:hover 
-{ 
-    display: block;
-    text-decoration: underline;
-    background-color: rgb(13, 241, 241);
-}
-
 .wrapper
 {
     display: grid;

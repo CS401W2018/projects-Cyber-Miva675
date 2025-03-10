@@ -7,35 +7,93 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Family - Responsive Page</h1>
-    </header>
-    <nav>
-        <a href="##">Link</a>
-        <a href="##">Link</a>
-        <a href="##">Link</a>
-        <a href="##">Link</a>
-        <a href="##">Link</a>
-        <a href="##">Link</a>
-    </nav>
+    
+        <header>
+            <h1>My Family - Responsive Page</h1>
+        </header>
+        <hr>
+        <nav>
+            <a href="##">Link</a>
+            <a href="##">Link</a>
+            <a href="##">Link</a>
+            <a href="##">Link</a>
+            <a href="##">Link</a>
+            <a href="##">Link</a>
+        </nav>
+        <hr>
 
-    <div class="toprows">
-        <aside>
-            <figure>
-                <img src="myfamily.jpg" alt="My family picture.">
-                <figcaption><h2>My Family</h2></figcaption>
-                <p>3 Sentences about my family's current story.</p>
-            </figure>
-        </aside>
-        <main>
-            <article>first article. a picture and story.</article>
-            <article>Secind article. a picture and story.</article>
-            <article>third article. a picture and story.</article>
-        </main>
+        <div class="wrapper">
+
+            <aside class="left">
+                <h2>My Family Page.</h2>
+
+                    <script>
+                        function togglelist() {
+                            var list = document.getElementById("moreabout");
+                            list.style.display = (list.style.display === "none") ? "block" : "none";
+                        }
+                    </script>
+
+                        <button onclick="togglelist()">See more</button>
+                        <div class="list">    
+                            <ul id="moreabout" style="display: none;">
+                                <li>Seaside Home</li>
+                                <li>Waterfall Village</li>
+                                <li>Music</li>
+                                <li>Hunters</li>
+                                <li>Photography</li>
+                            </ul>
+                        </div>
+                        <br>
+
+                    <figure class="pic feature">
+                        <img src="family.jpg" alt="My Family">
+                    </figure>
+                    <h3 class="lcap">About my family.</h3>
+                <hr><br>
+            </aside>
+
+            <main>
+                <h2>Here is the Family</h2>
+                <div class="fix">
+
+                    <article class="arts">
+                        <img class="pix1" src="parents.jpg" alt="My Parents">
+                        <h3>My Parents</h3>
+                        <p>My parents' names are Rosalita and Miva. My mom, Rosalita is from one of the beautiful islands 
+                        of Papua New Guinea called Milne Bay. My dad Miva is from the Gulf of Papua New Guinea.
+                        They have been the rock in my life ever since I was little.  
+                        </p>
+                    </article>
+                    
+                    <article class="arts">
+                        <img class="pix2" src="brothers.jpg" alt="My Brothers">
+                        <h3>Brothers</h3>
+                        <p>On the far left is my oldest brother, Warren. On the far right is the second oldest brother,
+                        Jonathan. Second from the right is the third, Bruce and the second from the left is myself, Trevor.
+                        Warren is the expert in computers and engineering. Jonathan is the expert in music and creation.
+                        Bruce is an expert in practical hunting and fishing, and I'm  really good at arts and technology.
+                        </p>
+                    </article>
+                    
+                    <article class="arts">
+                        <img class="pix3" src="sister.jpg" alt="My Family">
+                        <h3>Surinah</h3>
+                        <p>Surinah is the only sister we have. She is the princess of the family. She is really good at 
+                        Political Scienc and social work. She has this inner confidence in conducting forums, surveys and
+                        even civil engineering.
+                        </p>
+                    </article>
+                </div>
+            </main>
+
+        </div>
+        <br><br>
+        <hr>
+
+        <footer>
+            <p>&copy; 2025 Trevor Miva</p>
+        </footer>
     </div>
-
-    <footer>
-        <p>&copy; 2025 Trevor Miva</p>
-    </footer>
 </body>
 </html>
