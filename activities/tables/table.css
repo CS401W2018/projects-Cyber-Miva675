@@ -1,6 +1,10 @@
 body
 { font-family: Georgia, 'Times New Roman', Times, serif;}  
 
+header h1{
+    color: gold;
+}
+
 .schedule
 {
     border: 3px solid #000;
@@ -34,4 +38,9 @@ body
 main p::first-letter {
     font-size: 30px;
     color: red;
+}
+
+main caption {
+    size: large;
+    color: gold;
 }

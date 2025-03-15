@@ -1,0 +1,141 @@
+body
+{ font-family: Georgia, 'Times New Roman', Times, serif;}  
+
+header h1
+{
+    color: gold;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+}
+
+nav h1 
+{
+    color: gold;
+}
+
+nav a
+{
+    background-color: gold;
+    padding: 10px 20px 10px 20px;
+    column-gap: 5px;
+    border-radius: 10px;
+}
+
+nav a:hover
+{
+    color: rgb(255, 0, 0);
+}
+
+.navfix 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bhead
+{
+    color: gold;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.schedule
+{   
+    margin: 5px auto;
+    border: thin solid #000;
+    border-spacing: 0;
+    background-color: orange;
+}
+
+    .schedule tr
+    { background-color: rgb(30, 30, 30, 0); }
+
+
+.schedule thead 
+{ background-color: rgb(19, 19, 120); }
+
+    .schedule thead tr
+    {
+        background-color: rgb(19, 19, 120);
+        color: #FFF;
+    }
+
+    .schedule th, .schedule td
+    {
+        border: thin solid #000;
+        padding: 10px;
+        vertical-align: middle;
+    }
+
+.schedule tbody th
+{ color: blue; }
+
+    .schedule tbody tr:nth-child(even)
+    { background-color: #999; }
+
+.schedule tfoot 
+{ background-color: blue; }
+
+    .schedule tfoot tr
+    {
+        background-color: rgb(19, 19, 120);
+        color: blue; 
+    }
+
+    .schedule tfoot th, .schedule tfoot td
+    {
+        background-color: rgb(19, 19, 120);
+        color: #FFF;
+    }
+
+.wrapper 
+{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.maincontent
+{
+    display: flex;
+    color: black;
+    margin-right: 0;
+}
+
+main caption 
+{ 
+    color: black; 
+}
+
+.sides
+{
+    display: flex;
+    flex-direction: column;
+
+    background-color: green;
+    width: 400px;
+    margin-left: 10px;
+    border: thin solid black;
+}
+
+    aside h2 
+    {
+        background-color: rgb(19, 19, 120);
+        color: white;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 5px 20px 5px 20px;
+    }
+
+    aside p 
+    {
+        margin: auto;
+        margin-top: 0; 
+        margin-left: 100px;  
+    }
+
+
+
