@@ -3,11 +3,11 @@ body {
 }
 
 fieldset {
-    background-color: rgb(11, 21, 208);
+    background-color: rgb(10, 132, 239);
 }
 
 legend {
-    background-color: rgb(10, 132, 239);
+    background-color: rgb(11, 21, 208);
     color: white;
     padding: 20p;
 }
