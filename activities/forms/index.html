@@ -10,60 +10,69 @@
     <header><h1>Web Design</h1></header><hr>
     <main>
         <form action="processing.html" method="get">
-            <div class="form-row">
-                <label for="fullname">Full Name:</label>
-                <input  type="text" name="fullname" placeholder="Full Name" id="fullname">
-            </div>
-            <div>
-                <div for="gender">Gender</div>
-                <label><input type="radio" name="gender" value="Male">Male</label>
-                <label><input type="radio" name="gender" value="Female">Female</label>
-            </div>
-            <div class="form-row">
-                <label><input type="checkbox" name="agree" value="agree">I agree to the terms</label>
-            </div>
-            <div class="form-row">
-                <label for="">Email:</label>
-                <input type="email" name="email" value="kcmiva19@go.byuh.edu" id="email">
-            </div>
-            <div>
-                <label for="pass">Password:</label>
-                <input type="password" name="password" id="pass">
-            </div>
-            <div>
-                <label for="state">State:</label>
-                <select name="state" id="state">
-                    <option value="blank"></option>
-                    <option value="CO">Colorado</option>
-                    <option value="HI" selected>Hawaii</option>
-                    <option value="UT">Utah</option>
-                </select>
-            </div>
-            <div>
-                <div for="year">Year in school</div>
-                <label><input type="radio" name="year" value="Freshmen">Freshmen</label>
-                <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
-                <label><input type="radio" name="year" value="Junior">Junior</label>
-                <label><input type="radio" name="year" value="Senior">Senior</label>
-            </div>
-            <div class="form-row">
-                <input type="submit">
-            </div>
-        </form>
-    </main><hr>
+            <fieldset>
+                <legend>Account Info</legend>
+                <div class="form-row">
+                    <label for="fullname">Full Name:</label>
+                    <input  type="text" name="fullname" placeholder="Full Name" id="fullname">
+                </div>
 
-    <ul>
-    <h2>Engagement</h2><hr>
-        <li>The "action" attribute in the "form" tag specifies the location or web address where 
-        the data in the form will be sent to when the user submits.</li>
-        <li>The "method" attribute tells how the data is sent when the user submits the form.
-        It is either sent through the "POST" value or the "GET" value. 
-        </li>
-        <li>A "POST" is when you send data online like pictures and personal information
-        such as your personal pictures, names and emails. However, a "GET" is when you use or view data that are
-        already in  website, for instance, searching about something in google through the search bar.
-        </li>
-    </ul>
+                <div class="form-row">
+                    <label for="">Email:</label>
+                    <input type="email" name="email" value="example@go.byuh.edu" id="email">
+                </div>
+
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="password" id="pass">
+                </div>
+
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI" selected>Hawaii</option>
+                        <option value="UT">Utah</option>
+                    </select>
+                </div>
+
+                <div class="radio-row">
+                    <div class="form-spacer">Year in school:</div>
+                    <label><input type="radio" name="year" value="Freshmen">Freshmen</label>
+                    <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
+                    <label><input type="radio" name="year" value="Junior">Junior</label>
+                    <label><input type="radio" name="year" value="Senior">Senior</label>
+                </div>
+
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="agree" id="agree" checked>Remember me</label>
+                </div>
+
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+        <br><hr>
+        <ul>
+            <h2>Engagement - Form Styling</h2>
+            <li>There are various ways that you can use to style your form. There are ways like 
+            fieldset, legend, radio views, spacers, input, labels, actions, and even using classes
+            and IDs to edit in CSS files.
+            </li>
+            <li>The professor likes to use flex because it can easily allow the web pages to be 
+            displayed on desktop views to mobile device screen views.
+            </li>
+        </ul>
+    </main>
     <hr>
     <footer>
         <p>&copy; 2025  Trevor Miva</p>
