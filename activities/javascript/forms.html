@@ -120,51 +120,20 @@
         <hr>
         <ul>
             <h2>Engagement</h2>
-            <li>In the past history of coding, several companies were competing about who was going to be the best. There were 2 famous 
-            companies that were competing with each other about who was going to be the best. One was Microsoft and the other was Sun Mircrosystems.
-            after a period of time, Sun Microsystems created a coding system that raised the status of the company higher. The coding
-            system is what is now called the Java Script coding.</li>
+            <li>AJAX is a coding technique that allows the webpages to update without reloading. 
+            It normally uses java script so that it prevents the default or reloading, sending 
+            the data to the server and recieving a message back to java script. </li>
 
-            <li>There are 2 ways that a Javascript can be run. First, it can be run in a Web browser by inserting it within the same file
-            using the javascript tag, or creating a seperate file of javascript and link it to the index file. Second, javascript can be run through
-            the terminals using the node.js.</li>
-
-            <li>J Query was the most popular front-end js library in the history of coding.</li>
-            
-            <li>Today, the most popular front-end js library is the React.js.</li>
+            <li>We put the Js code in a seperate file to make it more easier to interact when
+            using it for other webpages instead of copying over and over again.
+            It is also to make it more easier when debugging the errors in a seperate file and it
+            allows the file to be clear for editing later.</li>
         </ul>
     </main>
     <hr>
     <footer>
         <p>&copy; 2025 Trevor Miva</p>
     </footer>
-    <script>
-        document.getElementById('myform').addEventListener('submit',function(event){
-            event.preventDefault();
-            alert("Form Submitted");
-
-            const firstname = document.getElementById('firstname').value;
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
-
-            if (!firstname) {
-                alert("You need to enter your name.");
-                return;
-            }
-
-            if (!age || age<18) {
-                alert("You need to be 18.");
-                return;
-            }
-
-            const  formData = {
-                firstname: firstname,
-                email: email,
-                password: password,
-            };
-
-            console.log(formData);
-        });   
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
