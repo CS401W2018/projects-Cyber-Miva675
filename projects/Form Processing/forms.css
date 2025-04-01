@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 125);
+    color: white;
+    padding: 10px 0;
+}
+
+fieldset {
+    background-color: rgb(18, 125, 231);
+    border: thick solid rgb(0, 0, 125);
+}
+
+legend {
+    background-color: rgb(0, 0, 125);
+    color: white;
+    padding: 10px;
+    border: thin solid black;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label {
+    display: flex;
+    width: 100px;
+}
+
+.radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.radio-row label {
+    display: flex;
+}
+
+.form-spacer {
+    width: 100px;
+}
+
+.form-row input :not([type="submit"]):focus {
+    background-color: green;
+}
+
+.form-row input :not([type="submit"]) {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #888;
+}
+
+.form-row input[type="submit"] {
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 0, 125);
+    font-size: 20px;
+}
+
+.form-row  input {
+    background-color: yellow;
+    border: thick solid blue;
+}
+
+.pass-container input[type="password"]{
+    border-radius: 5px;
+}
+
+.pass-container {
+    display: flex;
+}
+
+.pass-container input {
+    display: flex;
+    margin-left: 0;
+}
+
+.pass-container img {
+    display: flex;
+    margin-left: 5px;
+}
+
+#hideicon {
+    display: flex;
+    width: 25px;
+    height: 20px;
+}
+
+.form-row .agree {
+    width: 500px;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(0, 0, 125);
+    padding: 10px;
+}
+
+@media ONLY screen and (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+    }
+
+    .radio-row {
+        flex-direction: column;
+    }
+
+    .form-row label {
+        text-align: left;
+    }
+
+    .form-spacer {
+        text-align: left;
+    }
+}
