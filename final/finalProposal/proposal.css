@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    font-size: larger;
+    background-color: rgb(43, 205, 226);
+}
+
+header h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.navigate {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
