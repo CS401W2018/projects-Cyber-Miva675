@@ -1,0 +1,275 @@
+body {
+    color: white;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    header h1 {
+        display: flex;
+        align-content: center;
+        justify-content:space-evenly;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        width: 600px;
+
+        font-size: xx-large;
+        color: white;
+        background-color: blue;
+        background-image: url(sunrisebg.jpg);
+        margin: auto;
+
+        background-clip: text;
+        background-size: contain;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    nav a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        text-align: center;
+        padding: 10px 30px 0px 30px;
+
+        background-color: gold;
+        border-radius: 5px;
+        width: 100px;
+        height: 40px;
+    }
+
+    nav a:hover{
+        text-decoration: underline;
+        color: white;
+        background-color: blue;
+        }
+
+        .navigate {
+            display: flex;
+            padding: 10px 20px 10px 20px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 20fr 80fr ;
+        column-gap: 20px;
+        row-gap: 20px;
+        grid-template-areas: 
+            "aside1  main1 aside2";
+        }
+
+        .left {
+            display: block;
+            grid-area: "aside1";
+            color: black;
+        }
+
+        .right {
+            display: block;
+            grid-area: "aside2";
+            color: black;
+        }
+
+        .price {
+            color: red;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+    main {
+        display: block;
+        grid-area: "main1";
+    }
+
+    .topmain {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0px;
+    }
+
+    .agencyhead {
+        display: flex;
+        margin: 0px;
+        font-size: 24px;
+    }
+
+    .sign {
+        display: flex;
+        height: 20px;
+        width: 100%;
+        max-width: 90px;
+    }
+
+    .create {
+        display: flex;
+        height: 20px;
+        width: 100%;
+        max-width: 180px;
+    }
+
+    main button {
+        border: thin solid blue;
+        background-color: white;
+    }
+
+    main button:hover {
+        color: white;
+        background-color: blue;
+    }
+
+    main h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: blue;
+    }
+
+        .hotels {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .hotels1 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .card {
+            border: thin solid blue;
+            box-shadow: 8px 8px 8px rgba(255, 215, 0, 0.5);
+            width: 250px;
+            margin: 5px 0px 5px 0px;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+
+        .card figure {
+            margin: 0;
+        }
+
+        .card img {
+            width: 100%;
+            height: 130px;
+        }
+
+        /*.Airways {
+            display: flex;
+            width: 100%;
+            max-width: 400px;
+            height: 190px;
+        }
+
+        .Hilton {
+            display: flex;
+            width: 100%;
+            max-width: 400px;
+            height: 190px;
+        }
+
+        .Apec {
+            display: flex;
+            width: 100%;
+            max-width: 400px;
+            height: 190px;
+        }
+
+        .Gateway {
+            display: flex;
+            width: 100%;
+            max-width: 400px;
+            height: 190px;
+        }
+
+        .Stanley { 
+            width: 100%;
+            max-width: 400px;
+            height: 190px;
+        }*/
+
+        .current {
+            color: gold;
+            background-color: blue;
+        }
+
+        .stats {
+            border: 2px solid black;
+            color: black;
+        }
+
+        .cap {
+            font-family: Arial, Helvetica, sans-serif;
+           
+            color: black;
+        }
+
+        .stats th {
+            border: 2px solid black;
+        }
+
+        .stats td {
+            border: 2px solid black;
+        }
+
+        .stats tr {
+            border: 2px solid black;
+        }
+
+        .stats tbody {
+            border: 2px solid black;
+        }
+
+        .editbutton {
+            width: 100%;
+            max-width: 70px;
+            height: 70px;
+            background-color: blue;
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+            border: thick solid black;
+            border-radius: 30px;
+        }
+
+    footer {
+        color: black;
+    }
+
+        @media ONLY screen AND (max-width: 900px)
+            {
+                .row{ flex-direction: column;
+                    align-items: cover;}
+            }
+
+        @media ONLY screen AND (max-width: 600px)
+            {
+                header{ background-color: white;}
+
+                nav{ flex-direction: column;}
+                nav a{ border-bottom: thin solid white;
+                    margin: 5px auto 5px 0px;
+                    padding: 10px 600px 0px 0px;
+                    text-align: left;}
+
+                .card{ margin-bottom: 20px;
+                    width: 90%;}
+                .hotels{ flex-direction: column;}
+                .feature{ order:-1;}
+                .create{ width: 100%;
+                max-width: 180px;
+                height: 40px;}
+            }

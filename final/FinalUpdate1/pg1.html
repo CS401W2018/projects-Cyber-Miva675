@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <header>
+        <h1>Page 1</h1>
+    </header>
+    <br>
+    <nav class="navigate">
+        <a href="index.html">Home page</a>
+        <a href="pg1.html" class="current">Page 1</a>
+        <a href="pg2.html">Page 2</a>
+
+        <a href="pg3.html">Page 3</a>
+        <a href="pg4.html">Page 4</a>
+        <a href="pg5.html">Page 5</a>
+    </nav>
+    <hr>
+        
+        <div class="wrapper">
+            <aside class="left">
+
+                <script>
+                    function togglelist() {
+                        var list = document.getElementById("account");
+                        list.style.display = (list.style.display === "none") ? "block" : "none";
+                    }
+                </script>
+
+                    <button class="editbutton" onclick="togglelist()">Account</button>
+                <div class="information">    
+                    <ul id="account" style="display: none;">
+                        <li>Profile</li>
+                        <li>Bookings</li>
+                        <li>History</li>
+                        <li>Offers</li>
+                        <li>Settings</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <main class="main">
+                <table class="stats">
+                    <caption class="cap">Visting reports over the years</caption>
+                    <theader>
+                        <tr>
+                            <th>Hotel</th>
+                            <th>Location</th>
+                            <th>Year</th>
+                            <th>Number of Local Visitors</th>
+                            <th>Number of Expatriates visitors</th>
+                        </tr>
+                    </theader>
+
+                    <tbody>
+                        <tr>
+                            <th colspan="5">2023</th>
+                        </tr>
+                        <tr>
+                            <td>Airways</td>
+                            <td rowspan="2">140</td>
+                            <td>Jan - March</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Hilton</td>
+                            
+                            <td>12:00-12:50 AM</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Apec Haus</td>
+                            <td>210</td>
+                            <td>02:00-02:50 PM</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Gateway</td>
+                            <td>320</td>
+                            <td>03:00-03:50 PM</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Stanley</td>
+                            <td>320</td>
+                            <td>03:00-03:50 PM</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <th colspan="5">2024</th>
+                        </tr>
+                        <tr>
+                            <td>Airways</td>
+                            <td>320</td>
+                            <td>03:00-03:50 PM</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Hilton</td>
+                            <td>320</td>
+                            <td>03:00-03:50 PM</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Apec Haus</td>
+                            <td>320</td>
+                            <td>03:00-03:50 PM</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Gateway</td>
+                            <td>320</td>
+                            <td>03:00-03:50 PM</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Stanley</td>
+                            <td>320</td>
+                            <td>03:00-03:50 PM</td>
+                            <td>P2</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th id="total-credits" colspan="3">Total Visitors</th>
+                            <td headers="total-visitors" colspan="2">15</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </main>
+        
+            <aside class="right">
+                <div class="hotels1">
+
+                    <div class="card feature">
+                        <figure class="Airways">
+                        <img src="airways.jpg" alt="Airways Hotel Port Moresby">
+                        </figure>
+                        <figure-caption>Airways Hotel <br> Port Moresby - PNG</figure-caption><br>
+                        <p class="price">$400</p>
+                        <p>
+                            Visit site:
+                            <a href="https://www.airways.com.pg/" target="_blank" rel="noopener noreferrer"> www.airways.com.pg</a>
+                        </p>
+                    </div>
+        
+                    <div class="card">
+                        <figure class="Hilton">
+                        <img src="hilton.jpg" alt="Hilton Hotel Port Moresby">
+                        </figure>
+                        <figure-caption>Hilton Hotel <br> Port Moresby - PNG</figure-caption><br>
+                        <p class="price">$500</p>
+                        <p>
+                            Visit site:
+                            <a href="https://www.hilton.com/en/hotels/pomsmhi-hilton-
+                            port-moresby-hotel-and-residences/?WT.mc_id=zLADA0PG1HI2PSH3GGL4INTBPP5dkt6POMSMHI7en_&epid!_&ebuy!
+                            &&&&&&gclsrc=3p.ds&&msclkid=f70cadbc8721163d54e8ca4d5aef1fc7&gclid=f70cadbc8721163d54e8ca4d5aef1fc7&g
+                            clsrc=3p.ds&gad_source=7" target="_blank" rel="noopener noreferrer"> www.hilton.com.pg</a>
+                        </p>
+                    </div>
+        
+                    <div class="card">
+                        <figure class="Apec">
+                        <img src="apec.jpg" alt="Apec Haus Port Moresby">
+                        </figure>
+                        <figure-caption>Apec Haus <br> Port Moresby - PNG</figure-caption><br>
+                        <p class="price">$800</p>
+                        <p>
+                            Visit site:
+                            <a href="https://www.events1000.com/PG/Port-Moresby/103611911513461/APEC-Haus" target="_blank" rel="noopener noreferrer">
+                            www.apechaus.com.pg</a>
+                        </p>
+                    </div>
+        
+                    <div class="card">
+                        <figure class="Gateway">
+                        <img src="gateway.jpg" alt="Gateway Hotel Port Moresby">
+                        </figure>
+                        <figure-caption>Gateway Hotel <br> Port Moresby - PNG</figure-caption><br>
+                        <p class="price">$700</p>
+                        <p>
+                            Visit site:
+                            <a href="https://www.booking.com/searchresults.html?aid=2276390&label=msn
+                            -d9dQQqv2ET0%2ASaabUEDhyg-80195824258791%3Atikwd-80195915780814%3Aloc-190%3Aneo%3Amte%3Alp43817%3Adec%
+                            3Aqsgateway%20hotel%20Port%20Moresby&utm_medium=cpc&utm_campaign=Hotel%20-%20Papua%20New%20Guinea&utm
+                            _term=d9dQQqv2ET0%2ASaabUEDhyg&msclkid=efc9089c51661bb049be6f6d8e54a592&utm_source=bing&highlighted_hotels
+                            =679745&redirected=1&city=-2198538&hlrd=no_dates&source=hotel&expand_sb=1&keep_landing=1&sid=d0ba7fd515e9f
+                            e3422e6e7402f7a2154" target="_blank" rel="noopener noreferrer"> www.gatewayhotel.com.pg</a>
+                        </p>
+                    </div>
+        
+                    <div class="card">
+                        <figure class="Stanley">
+                        <img src="stanley.jpg" alt="Stanley Hotel Port Moresby">
+                        </figure>
+                        <figure-caption>Stanley Hotel <br> Port Moresby - PNG</figure-caption><br>
+                        <p class="price">$600</p>
+                        <p>
+                            Visit site:
+                            <a href="https://www.hotels.com/Hotel-Search?selected=8827075&locale=en_US&HotelID=
+                            8827075&siteid=300000001&gclid=843f2d1c51101ae338b54aed8eb6d0b4&gclsrc=3p.ds&semcid=HCOM-US.UB.BING.PT-c-EN.
+                            HOTEL&semdtl=a1422601373.b11342504960299291.g1kwd-83907382792720%3Aloc-190.e1c.m1843f2d1c51101ae338b54aed8eb6d0b4.
+                            r13498edef6b7bfc70356fdbdab2ee9d1abdb39ce06352f23c837a49bce5597d58.c1.j143817.k1.d183906879237778.h1e.i1.l1.n1.o1.
+                            p1.q1.s1.t1.x1.f1.u1.v1.w1&msclkid=843f2d1c51101ae338b54aed8eb6d0b4&startDate=2025-04-20&endDate=2025-04-21&regionId
+                            =2850&destination=The%20Stanley%20Hotel%20%26%20Suites&isInvalidatedDate=false&upsellingNumNightsAdded=&theme=
+                            &userIntent=&upsellingDiscountTypeAdded=&useRewards=false&sort=RECOMMENDED" target="_blank" rel="noopener noreferrer">
+                            www.stanleyhotels.com.pg</a>
+                        </p>
+                    </div>
+                
+                </div>
+            </aside>
+        </div>
+    <footer>
+        <p>&copy; 2025 Trevor Miva</p>
+    </footer>
+</body>
+</html>
