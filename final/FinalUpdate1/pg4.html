@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Design</title>
+    <title>Tourism In Port Moresby</title>
     <link rel="stylesheet" href="final.css">
 </head>
 <body>
     <header>
-        <h1>Page 4</h1>
+        <h1>Hotspots</h1>
     </header>
     <br>
     <nav class="navigate">
         <a href="index.html">Home page</a>
-        <a href="pg1.html">Page 1</a>
-        <a href="pg2.html">Page 2</a>
+        <a href="pg1.html">History</a>
+        <a href="pg2.html">Memberships</a>
 
-        <a href="pg3.html">Page 3</a>
-        <a href="pg4.html" class="current">Page 4</a>
-        <a href="pg5.html">Page 5</a>
+        <a href="pg3.html">Natural Sites</a>
+        <a href="pg4.html" class="current">Hotspots</a>
+        <a href="pg5.html">Prices/Statistics</a>
     </nav>
     <hr>
-    <main>
+    <div class="wrapper">
+        <aside class="left">
 
-    </main>
+            <script>
+                function togglelist() {
+                    var list = document.getElementById("account");
+                    list.style.display = (list.style.display === "none") ? "block" : "none";
+                }
+            </script>
+
+                <button class="editbutton1" onclick="togglelist()">Account</button>
+            <div class="information">    
+                <ul id="account" style="display: none;">
+                    <li>Profile</li>
+                    <li>Bookings</li>
+                    <li>History</li>
+                    <li>Offers</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
+        </aside>
+        <main class="main"></main>
+        <aside class="right"></aside>
+    </div>
     <footer>
         <p>&copy; 2025 Trevor Miva</p>
     </footer>
