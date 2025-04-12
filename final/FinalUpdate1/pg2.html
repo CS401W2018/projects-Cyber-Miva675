@@ -8,17 +8,17 @@
 </head>
 <body>
     <header>
-        <h1>Prices/Statistics</h1>
+        <h1>Memberships</h1>
     </header>
     <br>
     <nav class="navigate">
         <a href="index.html">Home page</a>
-        <a href="pg1.html">History</a>
+        <a href="pg1.html">About</a>
         <a href="pg2.html" class="current">Memberships</a>
 
-        <a href="pg3.html">Natural Sites</a>
-        <a href="pg4.html">Hotspots</a>
-        <a href="pg5.html">Prices/Statistics</a>
+        <a href="pg3.html">Sites/Hotspots</a>
+        <a href="pg4.html">Prices/Statistics</a>
+        <a href="pg5.html">Contact</a>
     </nav>
     <hr>
     <div class="wrapper">
@@ -61,15 +61,16 @@
                         <label for="date-of-birth">Date of Birth:</label>
                         <input type="date" name="date-of-birth" value="Date" id="date-of-birth">
                     </div>
-                    <div class="radio2-row">
-                        <div class="form-spacer2">Marital status:</div>
-                            <div class="maritalstatus">
-                                <label for="mstatus"><input type="radio" name="maritalstatus" value="single" id="mstatus">Single</label>
-                                <label for="mstatus"><input type="radio" name="maritalstatus" value="married" id="mstatus">Married</label>
-                                <label for="mstatus"><input type="radio" name="maritalstatus" value="divorced" id="mstatus">Divorced</label>
-                                <label for="mstatus"><input type="radio" name="maritalstatus" value="widowed" id="mstatus">Widowed</label>
-                            </div>
-                        </div>
+                    <div class="radio-row">
+                        <div class="form-spacer">Gender:</div>
+                        <label><input type="radio" name="gender" value="male" id="male">Male</label>
+                        <label><input type="radio" name="gender" value="female" id="female">Female</label>
+                    </div>
+                    <div class="form-row">
+                        <label for="phonenumber">Phone Number:</label>
+                        <input type="tel" name="phonenumber" placeholder="Enter phone number" id="phonenumber">
+                    </div>
+                    
                     <div class="form2-row">
                         <label for="email">Email:</label>
                         <input type="email" name="email" placeholder="email@gmail.com" id="email2">
@@ -180,6 +181,19 @@
     </div>
 
     <footer>
+        <div class="footlinks">
+            <a href="pg1.html">About</a>
+            <a href="pg2.html">Membership</a>
+            <a href="pg5.html">Contact</a>
+            <a href="https://www.expedia.com/helpcenter/">Help</a>
+            <a href="https://www.instagram.com/expedia/" target="_blank">
+                <i class="fab fa-instagram">
+                    <img id="insta" src="insta.webp" alt="insta-icon">
+                </i>
+            </a>
+        </div>
+        
+        <br>
         <p>&copy; 2025 Trevor Miva</p>
     </footer>
 </body>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism In Port Moresby</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <header>
+        <h1>Sites/Hotspots</h1>
+    </header>
+    <br>
+    <nav class="navigate">
+        <a href="index.html">Home page</a>
+        <a href="pg1.html">About</a>
+        <a href="pg2.html">Memberships</a>
+
+        <a href="pg3.html" class="current">Sites/Hotspots</a>
+        <a href="pg4.html">Prices/Statistics</a>
+        <a href="pg5.html">Contact</a>
+    </nav>
+    <hr>
+    <div class="wrapper">
+        <aside class="left">
+            <script>
+                function togglelist() {
+                    var list = document.getElementById("account");
+                    list.style.display = (list.style.display === "none") ? "block" : "none";
+                }
+            </script>
+
+                <button class="editbutton1" onclick="togglelist()">Account</button>
+            <div class="information">    
+                <ul id="account" style="display: none;">
+                    <li>Profile</li>
+                    <li>Bookings</li>
+                    <li>History</li>
+                    <li>Offers</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
+        </aside>
+        <main class="main">
+            <h2>Visit the Amazing Sites in Port Moresby</h2>
+            <div class="sites">
+                <div class="visiting">
+                    <figure>
+                        <img src="plaza-town.jpeg" alt="Down town Plaza">
+                    </figure>
+                    Enjoy the plaza in downtown with a view to the city and the seaside
+                </div>
+                <div class="visiting">
+                    <figure>
+                        <img src="sogeri-falls.jpg" alt="Sogeri Falls In Port Moresby">
+                    </figure>
+                    Journey to the great Sogeri Falls in Port Moresby
+                </div>
+                <div class="visiting">
+                    <figure>
+                        <img src="kokodatrail.jpg" alt="Kokoda Trail at the far side of Port Moresby">
+                    </figure>
+                    Get the chance to journey through the great Kokoda Trail.
+                </div>
+            </div>
+        </main>
+        <aside class="right">
+            
+        </aside>
+    </div>
+    <footer>
+        <div class="footlinks">
+            <a href="pg1.html">About</a>
+            <a href="pg2.html">Membership</a>
+            <a href="pg5.html">Contact</a>
+            <a href="https://www.expedia.com/helpcenter/">Help</a>
+            <a href="https://www.instagram.com/expedia/" target="_blank">
+                <i class="fab fa-instagram">
+                    <img id="insta" src="insta.webp" alt="insta-icon">
+                </i>
+            </a>
+        </div>
+        
+        <br>
+        <p>&copy; 2025 Trevor Miva</p>
+    </footer>
+</body>
+</html>
